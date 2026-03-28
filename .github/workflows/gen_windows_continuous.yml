@@ -17,6 +17,7 @@ on:
       - "assets/windows/**/*"
       - "ci/deploy.sh"
       - "ci/windows-installer.iss"
+  workflow_dispatch:
 
 jobs:
   build:
